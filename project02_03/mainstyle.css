@@ -1,0 +1,99 @@
+#main_block {
+  width: 900px;
+  height: 500px;
+  margin: 50px;
+  padding: 10px;
+  border: 1px solid lightgray;
+  box-shadow: 10px 10px 50px 5px rgb(124, 120, 120);
+  display: inline-block;
+  overflow: hidden;
+  align-items: center;
+}
+
+#sub_block {
+  margin: 20px 250px;
+}
+
+h1 {
+  width: 100%;
+  color:purple;
+  text-align: center;
+}
+/* 
+p.homelinkarea {
+    float: left;
+    padding: 10px;
+}
+ */
+
+div p a.bottomReturn {
+  align-items: right;
+  margin: 20px;
+}
+
+ul {
+  list-style: circle;
+  padding: 10px;
+  margin: 20px;
+  text-align: left;
+  /* position: relative; */
+}
+  
+li {
+  display: block;
+  font-size: larger;
+  padding: 30px;
+}
+  
+  
+li a {
+  display: block; /*block: 纵向菜单，inline:横向菜单*/
+  text-decoration: dotted; /*菜单项目是否有下划线等*/
+  color: black;
+}
+  
+li a:hover{
+  color: purple;
+}
+  
+/* Login page(index.html)  */
+form {
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+    align-items: center;
+}
+
+form label {
+    width: 80px;
+    height: 30px;
+    display: inline-block;
+    color: #000;
+    font-weight: bold;
+    font-size: medium;
+    /* margin: 10px; */
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 200px;
+    height: 30px;
+    display: inline-block;
+    background-color: beige;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+button {
+    width: 300px;
+    height: 40px;
+    align-items: center;
+    font-weight: bold;
+    font-size: medium;
+    color: rgb(243, 239, 239);
+    background-color: rgb(3, 120, 14);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+}

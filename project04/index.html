@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/mainstyle.css">
+    <title>Booking</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png">
+    <link rel="manifest" href="/icon/site.webmanifest">
+</head>
+<body>
+    <div id="main_block">
+        <h1>Book your travel</h1>
+
+        <form id="sub_block">
+            <label for="firstName">First Name:</label>
+            <input type="text" name="firstName"> 
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" name="lastName">
+
+            <label for="sexuality">Sexuality:</label>
+            <input class="inputRadio" type="radio" id="male" name="sex" value="male">
+            <label class="labelRadio" for="male">Male</label>
+            <input class="inputRadio" type="radio" id="female" name="sex" value="female">
+            <label class="labelRadio" for="female">Female</label>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email">
+
+            <label for="phoneNumber">Mobilphone number:</label>
+            <input type="tel" name="phoneNumber">
+
+            <label for="passportNumber">Passport number:</label>
+            <input type="text" name="passportNumber">
+
+            <label for="From">From:</label>
+            <input type="date" name="from">
+
+
+            <label for="to">To:</label>
+            <input type="date" name="to">
+
+            <label for="additionInfo">Addition info：</label>
+            <textarea name="additionInfo" cols="20" rows="10"></textarea>
+            <button id="btnSend" type="button">Send</button>
+            <button id="btnReset" type="button">Reset</button>
+        </form>
+    </div>
+    
+</body>
+</html>
